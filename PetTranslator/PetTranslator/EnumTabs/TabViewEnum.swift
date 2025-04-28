@@ -17,6 +17,7 @@ enum TabViewEnum: Identifiable, CaseIterable, View {
     
     var id: Self {self}
     
+    //Items for tab
     var tabItem: TabItem {
         switch self {
         case .translator:

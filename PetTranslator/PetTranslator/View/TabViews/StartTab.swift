@@ -21,6 +21,7 @@ struct StartTab: View {
                     }
             }
         }
+        //place our custom bar
         .safeAreaInset(edge: .bottom) {
             HStack {
                 Spacer(minLength: 25)
